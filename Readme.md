@@ -1,4 +1,4 @@
-This was an experiment to see how AdBlock and other similar extensions work. 
+This was an experiment to see how AdBlock and other similar extensions work. All the magic is inside likeblocker.js.
 
 To install it, click the wrench icon, and select `tools/extensions`. Then click  `Developer mode` and `load unpacked extension`. Then just choose the folder. 
 
