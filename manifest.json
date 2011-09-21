@@ -1,0 +1,15 @@
+{
+  "name": "LikeBlocker",
+  "version": "1.0",
+  "description": "LikeBlocker blocks Facebook Like buttons and other similar buttons",
+  "content_scripts": [
+      {
+        "matches":["http://*/*", "https://*/*"],
+        "js": ["likeblocker.js"],
+        "run_at" : "document_start"
+      }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}
